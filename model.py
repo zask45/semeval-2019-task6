@@ -22,7 +22,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import keras.backend as K
 from keras.models import Sequential
 from keras.callbacks import EarlyStopping
-from keras.layers.embeddings import Embedding
+from keras.layers import Embedding
 from keras.preprocessing.sequence import pad_sequences
 from keras.wrappers.scikit_learn import KerasClassifier
 from keras.layers import Dense, Flatten, LSTM, Conv1D, MaxPooling1D, Dropout, Bidirectional, GRU, SpatialDropout1D
