@@ -6,7 +6,7 @@ import symspell_python as spell_checkers
 
 from sklearn.preprocessing import LabelEncoder
 
-from keras.utils import np_utils
+from tensorflow.python.keras.utils import np_utils
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 
