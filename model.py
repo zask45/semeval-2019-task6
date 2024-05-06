@@ -24,7 +24,7 @@ from keras.models import Sequential
 from keras.callbacks import EarlyStopping
 from keras.layers import Embedding
 from keras.preprocessing.sequence import pad_sequences
-from keras.wrappers.scikit_learn import KerasClassifier
+from scikeras.wrappers import KerasClassifier 
 from keras.layers import Dense, Flatten, LSTM, Conv1D, MaxPooling1D, Dropout, Bidirectional, GRU, SpatialDropout1D
 
 class Offensive_Detector():
